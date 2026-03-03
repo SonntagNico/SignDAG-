@@ -1,0 +1,61 @@
+model,prediction,path_index,path,path_sign,path_symbol,negative_edge_count,controlled_collider_count,parity_total,negative_edges,controlled_colliders
+EVL,"D,L|E",1,D -> E -> L,positive,+,1,1,0,L->E,E
+EVL,"D,L|E",2,D -> L,negative,-,1,0,1,D->L,
+EVLR,"D,L|E",1,D -> E -> L,positive,+,1,1,0,L->E,E
+EVLR,"D,L|E",2,D -> L,negative,-,1,0,1,D->L,
+EVLR+,"D,L|E",1,D -> E -> L,positive,+,1,1,0,L->E,E
+EVLR+,"D,L|E",2,D -> L,negative,-,1,0,1,D->L,
+EVLRw,"D,L|E",1,D -> E -> L,positive,+,1,1,0,L->E,E
+EVLRw,"D,L|E",2,D -> L,negative,-,1,0,1,D->L,
+EVLw,"D,L|E",1,D -> E -> L,positive,+,1,1,0,L->E,E
+EVLw,"D,L|E",2,D -> L,negative,-,1,0,1,D->L,
+EVL,"D,L|V",1,D -> V -> L,negative,-,0,1,1,,V
+EVL,"D,L|V",2,D -> L,negative,-,1,0,1,D->L,
+EVLR,"D,L|V",1,D -> V -> L,negative,-,0,1,1,,V
+EVLR,"D,L|V",2,D -> L,negative,-,1,0,1,D->L,
+EVLR+,"D,L|V",1,D -> V -> R -> E -> L,positive,+,3,1,0,"R->V, R->E, L->E",V
+EVLR+,"D,L|V",2,D -> V -> E -> L,positive,+,1,1,0,L->E,V
+EVLR+,"D,L|V",3,D -> V -> L,negative,-,0,1,1,,V
+EVLR+,"D,L|V",4,D -> E -> R -> V -> L,negative,-,2,1,1,"R->E, R->V",V
+EVLR+,"D,L|V",5,D -> E -> V -> L,negative,-,0,1,1,,V
+EVLR+,"D,L|V",6,D -> E -> L,negative,-,1,0,1,L->E,
+EVLR+,"D,L|V",7,D -> L,negative,-,1,0,1,D->L,
+EVLRw,"D,L|V",1,D -> V -> R -> E -> L,positive,+,3,1,0,"R->V, R->E, L->E",V
+EVLRw,"D,L|V",2,D -> V -> E -> L,negative,-,2,1,1,"E->V, L->E",V
+EVLRw,"D,L|V",3,D -> V -> L,negative,-,0,1,1,,V
+EVLRw,"D,L|V",4,D -> E -> R -> V -> L,negative,-,2,1,1,"R->E, R->V",V
+EVLRw,"D,L|V",5,D -> E -> V -> L,positive,+,1,1,0,E->V,V
+EVLRw,"D,L|V",6,D -> E -> L,negative,-,1,0,1,L->E,
+EVLRw,"D,L|V",7,D -> L,negative,-,1,0,1,D->L,
+EVLw,"D,L|V",1,D -> V -> E -> L,negative,-,2,1,1,"E->V, L->E",V
+EVLw,"D,L|V",2,D -> V -> L,negative,-,0,1,1,,V
+EVLw,"D,L|V",3,D -> E -> V -> L,positive,+,1,1,0,E->V,V
+EVLw,"D,L|V",4,D -> E -> L,negative,-,1,0,1,L->E,
+EVLw,"D,L|V",5,D -> L,negative,-,1,0,1,D->L,
+EVL,"L,E|V",1,L -> V -> D -> E,negative,-,0,1,1,,V
+EVL,"L,E|V",2,L -> E,negative,-,1,0,1,L->E,
+EVL,"L,E|V",3,L -> D -> E,negative,-,1,0,1,D->L,
+EVLR,"L,E|V",1,L -> V -> R -> E,negative,-,2,1,1,"R->V, R->E",V
+EVLR,"L,E|V",2,L -> V -> D -> E,negative,-,0,1,1,,V
+EVLR,"L,E|V",3,L -> E,negative,-,1,0,1,L->E,
+EVLR,"L,E|V",4,L -> D -> V -> R -> E,positive,+,3,1,0,"D->L, R->V, R->E",V
+EVLR,"L,E|V",5,L -> D -> E,negative,-,1,0,1,D->L,
+EVLR+,"L,E|V",1,L -> V -> R -> E,negative,-,2,1,1,"R->V, R->E",V
+EVLR+,"L,E|V",2,L -> V -> E,negative,-,0,1,1,,V
+EVLR+,"L,E|V",3,L -> V -> D -> E,negative,-,0,1,1,,V
+EVLR+,"L,E|V",4,L -> E,negative,-,1,0,1,L->E,
+EVLR+,"L,E|V",5,L -> D -> V -> R -> E,positive,+,3,1,0,"D->L, R->V, R->E",V
+EVLR+,"L,E|V",6,L -> D -> V -> E,positive,+,1,1,0,D->L,V
+EVLR+,"L,E|V",7,L -> D -> E,negative,-,1,0,1,D->L,
+EVLRw,"L,E|V",1,L -> V -> R -> E,negative,-,2,1,1,"R->V, R->E",V
+EVLRw,"L,E|V",2,L -> V -> E,positive,+,1,1,0,E->V,V
+EVLRw,"L,E|V",3,L -> V -> D -> E,negative,-,0,1,1,,V
+EVLRw,"L,E|V",4,L -> E,negative,-,1,0,1,L->E,
+EVLRw,"L,E|V",5,L -> D -> V -> R -> E,positive,+,3,1,0,"D->L, R->V, R->E",V
+EVLRw,"L,E|V",6,L -> D -> V -> E,negative,-,2,1,1,"D->L, E->V",V
+EVLRw,"L,E|V",7,L -> D -> E,negative,-,1,0,1,D->L,
+EVLw,"L,E|V",1,L -> V -> E,positive,+,1,1,0,E->V,V
+EVLw,"L,E|V",2,L -> V -> D -> E,negative,-,0,1,1,,V
+EVLw,"L,E|V",3,L -> E,negative,-,1,0,1,L->E,
+EVLw,"L,E|V",4,L -> D -> V -> E,negative,-,2,1,1,"D->L, E->V",V
+EVLw,"L,E|V",5,L -> D -> E,negative,-,1,0,1,D->L,

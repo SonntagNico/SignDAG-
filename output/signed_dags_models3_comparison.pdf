@@ -1,0 +1,214 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Length 2888 >>
+stream
+BT
+/F1 8 Tf
+10 TL
+24 560 Td
+(prediction | EVL | EVLw | EVLR | EVLRw | EVLR+) Tj
+T*
+(-----------+-----+------+------+-------+------) Tj
+T*
+(D,E|L      | +   | +    | +    | +     | +    ) Tj
+T*
+(D,E|L,R    | +   | +    | +    | +     | +    ) Tj
+T*
+(D,E|L,R,V  | +   | +    | +    | +     | ?    ) Tj
+T*
+(D,E|L,V    | +   | +    | ?    | ?     | ?    ) Tj
+T*
+(D,E|R      | +   | +    | +    | +     | +    ) Tj
+T*
+(D,E|R,V    | +   | ?    | +    | ?     | ?    ) Tj
+T*
+(D,E|V      | +   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,E|{}     | +   | +    | +    | +     | +    ) Tj
+T*
+(D,L|E      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,L|E,R    | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,L|E,R,V  | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,L|E,V    | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,L|R      | -   | -    | -    | -     | -    ) Tj
+T*
+(D,L|R,V    | -   | ?    | -    | ?     | ?    ) Tj
+T*
+(D,L|V      | -   | ?    | -    | ?     | ?    ) Tj
+T*
+(D,L|{}     | -   | -    | -    | -     | -    ) Tj
+T*
+(D,R|E      | 0   | 0    | +    | +     | +    ) Tj
+T*
+(D,R|E,L    | 0   | 0    | +    | +     | +    ) Tj
+T*
+(D,R|E,L,V  | 0   | 0    | +    | +     | +    ) Tj
+T*
+(D,R|E,V    | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(D,R|L      | 0   | 0    | 0    | 0     | 0    ) Tj
+T*
+(D,R|L,V    | 0   | 0    | +    | ?     | ?    ) Tj
+T*
+(D,R|V      | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(D,R|{}     | 0   | 0    | 0    | 0     | 0    ) Tj
+T*
+(D,V|E      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,V|E,L    | +   | +    | ?    | ?     | ?    ) Tj
+T*
+(D,V|E,L,R  | +   | +    | +    | +     | +    ) Tj
+T*
+(D,V|E,R    | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,V|L      | +   | ?    | +    | ?     | +    ) Tj
+T*
+(D,V|L,R    | +   | ?    | +    | ?     | +    ) Tj
+T*
+(D,V|R      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(D,V|{}     | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(E,L|D      | -   | -    | -    | -     | -    ) Tj
+T*
+(E,L|D,R    | -   | -    | -    | -     | -    ) Tj
+T*
+(E,L|D,R,V  | -   | ?    | -    | ?     | -    ) Tj
+T*
+(E,L|D,V    | -   | ?    | -    | ?     | -    ) Tj
+T*
+(E,L|R      | -   | -    | -    | -     | -    ) Tj
+T*
+(E,L|R,V    | -   | ?    | -    | ?     | ?    ) Tj
+T*
+(E,L|V      | -   | ?    | ?    | ?     | ?    ) Tj
+T*
+(E,L|{}     | -   | -    | -    | -     | -    ) Tj
+T*
+(E,R|D      | 0   | 0    | -    | -     | -    ) Tj
+T*
+(E,R|D,L    | 0   | 0    | -    | -     | -    ) Tj
+T*
+(E,R|D,L,V  | 0   | 0    | -    | -     | ?    ) Tj
+T*
+(E,R|D,V    | 0   | 0    | -    | -     | ?    ) Tj
+T*
+(E,R|L      | 0   | 0    | -    | -     | -    ) Tj
+T*
+(E,R|L,V    | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(E,R|V      | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(E,R|{}     | 0   | 0    | -    | -     | -    ) Tj
+T*
+(E,V|D      | -   | -    | ?    | ?     | ?    ) Tj
+T*
+(E,V|D,L    | 0   | -    | +    | ?     | +    ) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1678 >>
+stream
+BT
+/F1 8 Tf
+10 TL
+24 560 Td
+(E,V|D,L,R  | 0   | -    | 0    | -     | +    ) Tj
+T*
+(E,V|D,R    | -   | -    | -    | -     | ?    ) Tj
+T*
+(E,V|L      | +   | ?    | +    | ?     | +    ) Tj
+T*
+(E,V|L,R    | +   | ?    | +    | ?     | +    ) Tj
+T*
+(E,V|R      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(E,V|{}     | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(L,R|D      | 0   | 0    | 0    | 0     | 0    ) Tj
+T*
+(L,R|D,E    | 0   | 0    | -    | -     | -    ) Tj
+T*
+(L,R|D,E,V  | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(L,R|D,V    | 0   | 0    | +    | ?     | ?    ) Tj
+T*
+(L,R|E      | 0   | 0    | -    | -     | -    ) Tj
+T*
+(L,R|E,V    | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(L,R|V      | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(L,R|{}     | 0   | 0    | 0    | 0     | 0    ) Tj
+T*
+(L,V|D      | +   | +    | +    | +     | ?    ) Tj
+T*
+(L,V|D,E    | +   | +    | +    | +     | +    ) Tj
+T*
+(L,V|D,E,R  | +   | +    | +    | +     | +    ) Tj
+T*
+(L,V|D,R    | +   | +    | +    | +     | ?    ) Tj
+T*
+(L,V|E      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(L,V|E,R    | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(L,V|R      | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(L,V|{}     | ?   | ?    | ?    | ?     | ?    ) Tj
+T*
+(R,V|D      | 0   | 0    | -    | ?     | -    ) Tj
+T*
+(R,V|D,E    | 0   | 0    | -    | -     | -    ) Tj
+T*
+(R,V|D,E,L  | 0   | 0    | -    | -     | -    ) Tj
+T*
+(R,V|D,L    | 0   | 0    | -    | ?     | -    ) Tj
+T*
+(R,V|E      | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(R,V|E,L    | 0   | 0    | ?    | ?     | ?    ) Tj
+T*
+(R,V|L      | 0   | 0    | -    | ?     | -    ) Tj
+T*
+(R,V|{}     | 0   | 0    | -    | ?     | -    ) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000146 00000 n 
+0000003085 00000 n 
+0000003211 00000 n 
+0000004940 00000 n 
+0000005066 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+5115
+%%EOF

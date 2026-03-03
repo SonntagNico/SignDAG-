@@ -1,0 +1,1492 @@
+{
+  "source_file": "..\\input\\signed_dags_models3.txt",
+  "model_count": 5,
+  "trace_predictions": [
+    "D,L|E",
+    "D,L|V",
+    "L,E|V"
+  ],
+  "models": [
+    {
+      "name": "EVL",
+      "traces": [
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "E"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "E"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "negative",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "L",
+            "y": "E",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "negative",
+          "active_path_count": 3,
+          "active_paths": [
+            {
+              "path": [
+                "L",
+                "V",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> V -> D -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "E"
+              ],
+              "path_str": "L -> E",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> D -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVLw",
+      "traces": [
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "E"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "E"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 5,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "V",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> V -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                },
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> E -> V -> L",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "L",
+            "y": "E",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 5,
+          "active_paths": [
+            {
+              "path": [
+                "L",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> V -> E",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> V -> D -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "E"
+              ],
+              "path_str": "L -> E",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                },
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> D -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVLR",
+      "traces": [
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "E"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "E"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "negative",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "L",
+            "y": "E",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 5,
+          "active_paths": [
+            {
+              "path": [
+                "L",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> V -> D -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "E"
+              ],
+              "path_str": "L -> E",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                },
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 3,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> D -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVLRw",
+      "traces": [
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "E"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "E"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 7,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "V",
+                "R",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> V -> R -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                },
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 3,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "V",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> V -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                },
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "R",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> E -> R -> V -> L",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "E"
+                },
+                {
+                  "from": "R",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> E -> V -> L",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "L",
+            "y": "E",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 7,
+          "active_paths": [
+            {
+              "path": [
+                "L",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> V -> E",
+              "negative_edges": [
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> V -> D -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "E"
+              ],
+              "path_str": "L -> E",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                },
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 3,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                },
+                {
+                  "from": "E",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> D -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "EVLR+",
+      "traces": [
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "E"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 2,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "E"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "D",
+            "y": "L",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 7,
+          "active_paths": [
+            {
+              "path": [
+                "D",
+                "V",
+                "R",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> V -> R -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                },
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 3,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "V",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> V -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "D",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "R",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> E -> R -> V -> L",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "E"
+                },
+                {
+                  "from": "R",
+                  "to": "V"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "V",
+                "L"
+              ],
+              "path_str": "D -> E -> V -> L",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "E",
+                "L"
+              ],
+              "path_str": "D -> E -> L",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "D",
+                "L"
+              ],
+              "path_str": "D -> L",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        },
+        {
+          "query": {
+            "x": "L",
+            "y": "E",
+            "given": [
+              "V"
+            ]
+          },
+          "d_connected": true,
+          "overall_sign_prediction": "indeterminate",
+          "active_path_count": 7,
+          "active_paths": [
+            {
+              "path": [
+                "L",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 2,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> V -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "V",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> V -> D -> E",
+              "negative_edges": [],
+              "negative_edge_count": 0,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "E"
+              ],
+              "path_str": "L -> E",
+              "negative_edges": [
+                {
+                  "from": "L",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "R",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> R -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                },
+                {
+                  "from": "R",
+                  "to": "V"
+                },
+                {
+                  "from": "R",
+                  "to": "E"
+                }
+              ],
+              "negative_edge_count": 3,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "V",
+                "E"
+              ],
+              "path_str": "L -> D -> V -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [
+                "V"
+              ],
+              "controlled_collider_count": 1,
+              "parity_total": 0,
+              "path_sign": "positive"
+            },
+            {
+              "path": [
+                "L",
+                "D",
+                "E"
+              ],
+              "path_str": "L -> D -> E",
+              "negative_edges": [
+                {
+                  "from": "D",
+                  "to": "L"
+                }
+              ],
+              "negative_edge_count": 1,
+              "controlled_colliders": [],
+              "controlled_collider_count": 0,
+              "parity_total": 1,
+              "path_sign": "negative"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

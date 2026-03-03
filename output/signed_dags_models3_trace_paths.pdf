@@ -1,0 +1,174 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Length 10272 >>
+stream
+BT
+/F1 8 Tf
+10 TL
+24 560 Td
+(model | prediction | path_index | path                  | path_sign | path_symbol | negative_edge_count | controlled_collider_count | parity_total | negative_edges   | controlled_colliders) Tj
+T*
+(------+------------+------------+-----------------------+-----------+-------------+---------------------+---------------------------+--------------+------------------+---------------------) Tj
+T*
+(EVL   | D,L|E      | 1          | D -> E -> L           | positive  | +           | 1                   | 1                         | 0            | L->E             | E                   ) Tj
+T*
+(EVL   | D,L|E      | 2          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR  | D,L|E      | 1          | D -> E -> L           | positive  | +           | 1                   | 1                         | 0            | L->E             | E                   ) Tj
+T*
+(EVLR  | D,L|E      | 2          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR+ | D,L|E      | 1          | D -> E -> L           | positive  | +           | 1                   | 1                         | 0            | L->E             | E                   ) Tj
+T*
+(EVLR+ | D,L|E      | 2          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLRw | D,L|E      | 1          | D -> E -> L           | positive  | +           | 1                   | 1                         | 0            | L->E             | E                   ) Tj
+T*
+(EVLRw | D,L|E      | 2          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLw  | D,L|E      | 1          | D -> E -> L           | positive  | +           | 1                   | 1                         | 0            | L->E             | E                   ) Tj
+T*
+(EVLw  | D,L|E      | 2          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVL   | D,L|V      | 1          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVL   | D,L|V      | 2          | D -> V -> L           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR  | D,L|V      | 1          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR  | D,L|V      | 2          | D -> V -> L           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR+ | D,L|V      | 1          | D -> E -> L           | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLR+ | D,L|V      | 2          | D -> E -> R -> V -> L | negative  | -           | 2                   | 1                         | 1            | R->E, R->V       | V                   ) Tj
+T*
+(EVLR+ | D,L|V      | 3          | D -> E -> V -> L      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR+ | D,L|V      | 4          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR+ | D,L|V      | 5          | D -> V -> E -> L      | positive  | +           | 1                   | 1                         | 0            | L->E             | V                   ) Tj
+T*
+(EVLR+ | D,L|V      | 6          | D -> V -> L           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR+ | D,L|V      | 7          | D -> V -> R -> E -> L | positive  | +           | 3                   | 1                         | 0            | R->V, R->E, L->E | V                   ) Tj
+T*
+(EVLRw | D,L|V      | 1          | D -> E -> L           | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLRw | D,L|V      | 2          | D -> E -> R -> V -> L | negative  | -           | 2                   | 1                         | 1            | R->E, R->V       | V                   ) Tj
+T*
+(EVLRw | D,L|V      | 3          | D -> E -> V -> L      | positive  | +           | 1                   | 1                         | 0            | E->V             | V                   ) Tj
+T*
+(EVLRw | D,L|V      | 4          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLRw | D,L|V      | 5          | D -> V -> E -> L      | negative  | -           | 2                   | 1                         | 1            | E->V, L->E       | V                   ) Tj
+T*
+(EVLRw | D,L|V      | 6          | D -> V -> L           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLRw | D,L|V      | 7          | D -> V -> R -> E -> L | positive  | +           | 3                   | 1                         | 0            | R->V, R->E, L->E | V                   ) Tj
+T*
+(EVLw  | D,L|V      | 1          | D -> E -> L           | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLw  | D,L|V      | 2          | D -> E -> V -> L      | positive  | +           | 1                   | 1                         | 0            | E->V             | V                   ) Tj
+T*
+(EVLw  | D,L|V      | 3          | D -> L                | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLw  | D,L|V      | 4          | D -> V -> E -> L      | negative  | -           | 2                   | 1                         | 1            | E->V, L->E       | V                   ) Tj
+T*
+(EVLw  | D,L|V      | 5          | D -> V -> L           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVL   | L,E|V      | 1          | L -> E                | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVL   | L,E|V      | 2          | L -> D -> E           | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVL   | L,E|V      | 3          | L -> V -> D -> E      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR  | L,E|V      | 1          | L -> E                | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLR  | L,E|V      | 2          | L -> D -> E           | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR  | L,E|V      | 3          | L -> D -> V -> R -> E | positive  | +           | 3                   | 1                         | 0            | D->L, R->V, R->E | V                   ) Tj
+T*
+(EVLR  | L,E|V      | 4          | L -> V -> D -> E      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR  | L,E|V      | 5          | L -> V -> R -> E      | negative  | -           | 2                   | 1                         | 1            | R->V, R->E       | V                   ) Tj
+T*
+(EVLR+ | L,E|V      | 1          | L -> E                | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLR+ | L,E|V      | 2          | L -> D -> E           | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLR+ | L,E|V      | 3          | L -> D -> V -> E      | positive  | +           | 1                   | 1                         | 0            | D->L             | V                   ) Tj
+T*
+(EVLR+ | L,E|V      | 4          | L -> D -> V -> R -> E | positive  | +           | 3                   | 1                         | 0            | D->L, R->V, R->E | V                   ) Tj
+T*
+(EVLR+ | L,E|V      | 5          | L -> V -> E           | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR+ | L,E|V      | 6          | L -> V -> D -> E      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLR+ | L,E|V      | 7          | L -> V -> R -> E      | negative  | -           | 2                   | 1                         | 1            | R->V, R->E       | V                   ) Tj
+T*
+(EVLRw | L,E|V      | 1          | L -> E                | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLRw | L,E|V      | 2          | L -> D -> E           | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 1998 >>
+stream
+BT
+/F1 8 Tf
+10 TL
+24 560 Td
+(EVLRw | L,E|V      | 3          | L -> D -> V -> E      | negative  | -           | 2                   | 1                         | 1            | D->L, E->V       | V                   ) Tj
+T*
+(EVLRw | L,E|V      | 4          | L -> D -> V -> R -> E | positive  | +           | 3                   | 1                         | 0            | D->L, R->V, R->E | V                   ) Tj
+T*
+(EVLRw | L,E|V      | 5          | L -> V -> E           | positive  | +           | 1                   | 1                         | 0            | E->V             | V                   ) Tj
+T*
+(EVLRw | L,E|V      | 6          | L -> V -> D -> E      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+T*
+(EVLRw | L,E|V      | 7          | L -> V -> R -> E      | negative  | -           | 2                   | 1                         | 1            | R->V, R->E       | V                   ) Tj
+T*
+(EVLw  | L,E|V      | 1          | L -> E                | negative  | -           | 1                   | 0                         | 1            | L->E             |                     ) Tj
+T*
+(EVLw  | L,E|V      | 2          | L -> D -> E           | negative  | -           | 1                   | 0                         | 1            | D->L             |                     ) Tj
+T*
+(EVLw  | L,E|V      | 3          | L -> D -> V -> E      | negative  | -           | 2                   | 1                         | 1            | D->L, E->V       | V                   ) Tj
+T*
+(EVLw  | L,E|V      | 4          | L -> V -> E           | positive  | +           | 1                   | 1                         | 0            | E->V             | V                   ) Tj
+T*
+(EVLw  | L,E|V      | 5          | L -> V -> D -> E      | negative  | -           | 0                   | 1                         | 1            |                  | V                   ) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000146 00000 n 
+0000010470 00000 n 
+0000010596 00000 n 
+0000012645 00000 n 
+0000012771 00000 n 
+trailer
+<< /Size 8 /Root 7 0 R >>
+startxref
+12820
+%%EOF

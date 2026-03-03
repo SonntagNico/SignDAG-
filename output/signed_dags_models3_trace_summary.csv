@@ -1,0 +1,16 @@
+model,prediction,overall_sign,overall_symbol,d_connected,active_path_count
+EVL,"D,L|E",indeterminate,?,True,2
+EVLR,"D,L|E",indeterminate,?,True,2
+EVLR+,"D,L|E",indeterminate,?,True,2
+EVLRw,"D,L|E",indeterminate,?,True,2
+EVLw,"D,L|E",indeterminate,?,True,2
+EVL,"D,L|V",negative,-,True,2
+EVLR,"D,L|V",negative,-,True,2
+EVLR+,"D,L|V",indeterminate,?,True,7
+EVLRw,"D,L|V",indeterminate,?,True,7
+EVLw,"D,L|V",indeterminate,?,True,5
+EVL,"L,E|V",negative,-,True,3
+EVLR,"L,E|V",indeterminate,?,True,5
+EVLR+,"L,E|V",indeterminate,?,True,7
+EVLRw,"L,E|V",indeterminate,?,True,7
+EVLw,"L,E|V",indeterminate,?,True,5

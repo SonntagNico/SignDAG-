@@ -1,0 +1,3585 @@
+{
+  "source_file": "C:\\Users\\nsonntag\\Dropbox\\Wissenschaftstheorie\\Arbeitsgruppe WT\\Sonderheft\\Subsmissions\\Kohler\\Revison\\Test\\input\\signed_dags_models3.txt",
+  "model_count": 5,
+  "models": [
+    {
+      "name": "EVL",
+      "nodes": [
+        "D",
+        "E",
+        "L",
+        "R",
+        "V"
+      ],
+      "edges": [
+        {
+          "from": "D",
+          "to": "E"
+        },
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "L",
+          "to": "V"
+        }
+      ],
+      "negative_edges": [
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        }
+      ],
+      "independencies": [
+        {
+          "x": "D",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L",
+            "R"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": []
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "L"
+          ]
+        }
+      ],
+      "dependencies_d_connected": [
+        {
+          "x": "D",
+          "y": "E",
+          "given": [],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        }
+      ],
+      "note": "Dependencies are d-connections; statistical dependence needs faithfulness.",
+      "sign_note": "Sign rule: parity of (#negative edges + #controlled colliders in Z) across active paths."
+    },
+    {
+      "name": "EVLw",
+      "nodes": [
+        "D",
+        "E",
+        "L",
+        "R",
+        "V"
+      ],
+      "edges": [
+        {
+          "from": "D",
+          "to": "E"
+        },
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "from": "E",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "L",
+          "to": "V"
+        }
+      ],
+      "negative_edges": [
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "E",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        }
+      ],
+      "independencies": [
+        {
+          "x": "D",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L",
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E",
+            "V"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": []
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ]
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "L"
+          ]
+        }
+      ],
+      "dependencies_d_connected": [
+        {
+          "x": "D",
+          "y": "E",
+          "given": [],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        }
+      ],
+      "note": "Dependencies are d-connections; statistical dependence needs faithfulness.",
+      "sign_note": "Sign rule: parity of (#negative edges + #controlled colliders in Z) across active paths."
+    },
+    {
+      "name": "EVLR",
+      "nodes": [
+        "D",
+        "E",
+        "L",
+        "R",
+        "V"
+      ],
+      "edges": [
+        {
+          "from": "D",
+          "to": "E"
+        },
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "L",
+          "to": "V"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "negative_edges": [
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "independencies": [
+        {
+          "x": "D",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L",
+            "R"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        }
+      ],
+      "dependencies_d_connected": [
+        {
+          "x": "D",
+          "y": "E",
+          "given": [],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        }
+      ],
+      "note": "Dependencies are d-connections; statistical dependence needs faithfulness.",
+      "sign_note": "Sign rule: parity of (#negative edges + #controlled colliders in Z) across active paths."
+    },
+    {
+      "name": "EVLRw",
+      "nodes": [
+        "D",
+        "E",
+        "L",
+        "R",
+        "V"
+      ],
+      "edges": [
+        {
+          "from": "D",
+          "to": "E"
+        },
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "from": "E",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "L",
+          "to": "V"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "negative_edges": [
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "E",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "independencies": [
+        {
+          "x": "D",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        }
+      ],
+      "dependencies_d_connected": [
+        {
+          "x": "D",
+          "y": "E",
+          "given": [],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        }
+      ],
+      "note": "Dependencies are d-connections; statistical dependence needs faithfulness.",
+      "sign_note": "Sign rule: parity of (#negative edges + #controlled colliders in Z) across active paths."
+    },
+    {
+      "name": "EVLR+",
+      "nodes": [
+        "D",
+        "E",
+        "L",
+        "R",
+        "V"
+      ],
+      "edges": [
+        {
+          "from": "D",
+          "to": "E"
+        },
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "D",
+          "to": "V"
+        },
+        {
+          "from": "E",
+          "to": "V"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "L",
+          "to": "V"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "negative_edges": [
+        {
+          "from": "D",
+          "to": "L"
+        },
+        {
+          "from": "L",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "E"
+        },
+        {
+          "from": "R",
+          "to": "V"
+        }
+      ],
+      "independencies": [
+        {
+          "x": "D",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L"
+          ]
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": []
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D"
+          ]
+        }
+      ],
+      "dependencies_d_connected": [
+        {
+          "x": "D",
+          "y": "E",
+          "given": [],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "E",
+          "given": [
+            "L",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "L",
+          "given": [
+            "E",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "R",
+          "given": [
+            "E",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "D",
+          "y": "V",
+          "given": [
+            "E",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "R",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "L",
+          "given": [
+            "D",
+            "R",
+            "V"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "R",
+          "given": [
+            "D",
+            "L",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "E",
+          "y": "V",
+          "given": [
+            "D",
+            "L",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "R",
+          "given": [
+            "D",
+            "E",
+            "V"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "E",
+            "R"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "L",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "R"
+          ],
+          "sign_prediction": "positive"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "E",
+            "L"
+          ],
+          "sign_prediction": "indeterminate"
+        },
+        {
+          "x": "R",
+          "y": "V",
+          "given": [
+            "D",
+            "E",
+            "L"
+          ],
+          "sign_prediction": "negative"
+        }
+      ],
+      "note": "Dependencies are d-connections; statistical dependence needs faithfulness.",
+      "sign_note": "Sign rule: parity of (#negative edges + #controlled colliders in Z) across active paths."
+    }
+  ]
+}

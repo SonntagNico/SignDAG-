@@ -1,0 +1,70 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Length 1626 >>
+stream
+BT
+/F1 8 Tf
+10 TL
+24 560 Td
+(model | prediction | overall_sign  | overall_symbol | d_connected | active_path_count) Tj
+T*
+(------+------------+---------------+----------------+-------------+------------------) Tj
+T*
+(EVL   | D,L|E      | indeterminate | ?              | True        | 2                ) Tj
+T*
+(EVLR  | D,L|E      | indeterminate | ?              | True        | 2                ) Tj
+T*
+(EVLR+ | D,L|E      | indeterminate | ?              | True        | 2                ) Tj
+T*
+(EVLRw | D,L|E      | indeterminate | ?              | True        | 2                ) Tj
+T*
+(EVLw  | D,L|E      | indeterminate | ?              | True        | 2                ) Tj
+T*
+(EVL   | D,L|V      | negative      | -              | True        | 2                ) Tj
+T*
+(EVLR  | D,L|V      | negative      | -              | True        | 2                ) Tj
+T*
+(EVLR+ | D,L|V      | indeterminate | ?              | True        | 7                ) Tj
+T*
+(EVLRw | D,L|V      | indeterminate | ?              | True        | 7                ) Tj
+T*
+(EVLw  | D,L|V      | indeterminate | ?              | True        | 5                ) Tj
+T*
+(EVL   | L,E|V      | negative      | -              | True        | 3                ) Tj
+T*
+(EVLR  | L,E|V      | indeterminate | ?              | True        | 5                ) Tj
+T*
+(EVLR+ | L,E|V      | indeterminate | ?              | True        | 7                ) Tj
+T*
+(EVLRw | L,E|V      | indeterminate | ?              | True        | 7                ) Tj
+T*
+(EVLw  | L,E|V      | indeterminate | ?              | True        | 5                ) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 842 595] /Resources << /Font << /F1 1 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000083 00000 n 
+0000000140 00000 n 
+0000001817 00000 n 
+0000001943 00000 n 
+trailer
+<< /Size 6 /Root 5 0 R >>
+startxref
+1992
+%%EOF
